@@ -1,0 +1,2 @@
+# Calculadora de conversão de moedas
+ Esta é uma aplicação web simples e funcional que permite a conversão entre diferentes moedas em tempo real. Utilizando dados de câmbio atualizados, o usuário pode facilmente converter valores de uma moeda para outra com apenas alguns cliques. O projeto foi desenvolvido com HTML, CSS e JavaScript, oferecendo uma interface intuitiva e responsiva. A ferramenta é ideal para quem precisa de uma conversão rápida e precisa durante viagens ou negociações internacionais.
