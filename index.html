@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Conversão de Moedas</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Conversor de Moedas</h1>
+
+        <form id="currency-converter">
+            <input type="number" id="amount" placeholder="Valor">
+            
+            <select id="from-currency">
+                <!-- Moedas de origem -->
+                <option value="USD">Dólar (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="BRL">Real (BRL)</option>
+                <option value="AOA">Kwanza (AOA)</option> 
+                <!-- Adicionar outras moedas aqui -->
+            </select>
+
+            <span>para</span>
+
+            <select id="to-currency">
+                <!-- Moedas de destino -->
+                <option value="BRL">Real (BRL)</option>
+                <option value="USD">Dólar (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="AOA">Kwanza (AOA)</option> 
+                <!-- Adicionar outras moedas aqui -->
+            </select>
+
+            <button type="submit">Converter</button>
+        </form>
+
+        <div id="result">
+            <p>Resultado: <span id="conversion-result">0</span></p>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
